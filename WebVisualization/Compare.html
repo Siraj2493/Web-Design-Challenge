@@ -10,13 +10,13 @@
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Latitude VS Cloudiness</title>
+  <title>COMPARISON</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
  
 
-  <!-- Bootstrap CSS -->
+  <!-- Web Visualization CSS -->
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 
@@ -44,7 +44,7 @@
 
       <a class="navbar-brand" style="background-color: #0BADA6;" href="index.html">Latitude</a>
 
-      <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
 
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -60,7 +60,7 @@
 
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
 
-              aria-haspopup="true" aria-expanded="false">
+              aria-haspopup="true" aria-expanded="false" style="color: black">
 
               Plots
 
@@ -72,7 +72,7 @@
 
               <a class="dropdown-item" href="humidity.html">Humidity</a>
 
-              <a class="dropdown-item active" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
 
               <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
 
@@ -108,43 +108,25 @@
 
     <div class="row">
 
-      <div class="col-lg-7 col-md-12">
+      <div>
 
         <!-- Left box  -->
 
         <div class="box">
 
-          <h3 class="title">Cloudiness</h3>
+          <h3 class="title">Comparison: Latitude vs *****</h3>
 
           <hr>
 
-          <img src="Fig3.png" alt="Cloudines Graph">
+          <p>Click each block for detail view</p>
 
-          <p>Cloudiness and latitude showed no significant correlation hence was inconclusive based on the data used.</p>
+          <div class="container" style="padding-bottom: 40px;">
 
-        </div>
+            <div class="row">
 
-      </div>
+              <div class="col-lg-6" style="padding: 30px;">
 
-      <div class="col-lg-5 col-md-12">
-
-        <!-- Right Box -->
-
-        <div class="box">
-
-          <h5 class="title">Visualizations</h5>
-
-          <hr>
-
- 
-
- 
-
-          <div class="container">
-
-            <div class="row" style="padding-bottom: 30px;">
-
-              <div class="col-6">
+                <div class="title">vs. Max Temperature</div>
 
                 <a href="max_temperature.html">
 
@@ -154,7 +136,9 @@
 
               </div>
 
-              <div class="col-6">
+              <div class="col-lg-6" style="padding: 30px;">
+
+                <div class="title">vs. Humidity</div>
 
                 <a href="humidity.html">
 
@@ -168,19 +152,25 @@
 
  
 
-            <div class="row" style="padding-bottom: 30px;">
+            <div class="row">
 
-              <div class="col-6">
+              <div class="col-lg-6" style="padding: 30px;">
+
+                <div class="title">vs. Cloudiness</div>
 
                 <a href="cloudiness.html">
 
-                  <img class="panel active" src="Fig3.png" alt="Cloudiness Graph">
+                  <img class="panel" src="Fig3.png" alt="Cloudiness Graph">
 
                 </a>
 
+ 
+
               </div>
 
-              <div class="col-6">
+              <div class="col-lg-6" style="padding: 30px;">
+
+                <div class="title">vs. Wind Speed</div>
 
                 <a href="wind_speed.html">
 
@@ -190,17 +180,9 @@
 
               </div>
 
- 
-
- 
-
             </div>
 
           </div>
-
- 
-
- 
 
         </div>
 
@@ -209,6 +191,8 @@
     </div>
 
   </div>
+
+ 
 
   <!-- Footer Section -->
 
@@ -220,7 +204,7 @@
 
  
 
-  <!-- Bootstrap JS -->
+  <!-- Web Visualization Script -->
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
 

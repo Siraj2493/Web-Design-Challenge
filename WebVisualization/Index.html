@@ -10,7 +10,7 @@
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Latitude VS Cloudiness</title>
+  <title>Web Visualization Dashboard</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 
     crossorigin="anonymous">
+
+             
 
  
 
@@ -44,7 +46,7 @@
 
       <a class="navbar-brand" style="background-color: #0BADA6;" href="index.html">Latitude</a>
 
-      <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
 
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -68,11 +70,11 @@
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
-              <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+              <a class="dropdown-item" href="max_temperature.html">Maximum Temperature</a>
 
               <a class="dropdown-item" href="humidity.html">Humidity</a>
 
-              <a class="dropdown-item active" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
 
               <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
 
@@ -114,13 +116,15 @@
 
         <div class="box">
 
-          <h3 class="title">Cloudiness</h3>
+          <h3 class="title">Summary: Latitude vs. Multiple Weather Factors</h3>
 
           <hr>
 
-          <img src="Fig3.png" alt="Cloudines Graph">
+          <img src="Fig1.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
 
-          <p>Cloudiness and latitude showed no significant correlation hence was inconclusive based on the data used.</p>
+          <p><h6>The website shows change in weather as you move closer to the equator. Data was culled from OpenWeatherMap API</h6></p>
+
+          <p><h6>Matplotlib was used to plot aspects of weather against latitude using the following: temperature, cloudiness, wind speed, and humidity.</h6></p>
 
         </div>
 
@@ -132,7 +136,7 @@
 
         <div class="box">
 
-          <h5 class="title">Visualizations</h5>
+          <h5 class="title">VISUALIZATION DASHBOARD</h5>
 
           <hr>
 
@@ -174,7 +178,7 @@
 
                 <a href="cloudiness.html">
 
-                  <img class="panel active" src="Fig3.png" alt="Cloudiness Graph">
+                  <img class="panel" src="Fig3.png" alt="Cloudiness Graph">
 
                 </a>
 
